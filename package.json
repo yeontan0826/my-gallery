@@ -1,0 +1,28 @@
+{
+  "name": "my-gallery",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "~1.17.3",
+    "expo": "~45.0.0",
+    "expo-ads-admob": "~13.0.0",
+    "expo-image-picker": "~13.1.1",
+    "expo-status-bar": "~1.3.0",
+    "react": "17.0.2",
+    "react-native": "0.68.2",
+    "react-native-safe-area-context": "4.2.4",
+    "styled-components": "^6.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "babel-preset-react-native": "^4.0.1",
+    "react-native-dotenv": "^3.4.9"
+  },
+  "private": true
+}
